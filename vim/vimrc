@@ -7,7 +7,10 @@ set showmatch
 set matchtime=1
 set encoding=utf-8
 set fileencodings=ios-2022-jp,cp932,sjis,euc-jp,uft-
-set clipboard=unnamed,autoselect
+set clipboard^=unnamedplus
+set clipboard+=autoselect
+
+set laststatus=2
 
 " バックアップファイルを作らない
 set nobackup
@@ -25,7 +28,7 @@ set cursorline
 nnoremap j gj
 nnoremap k gk
 " 不可視文字を可視化(タブが「▸-」と表示される)
-"set list listchars=tab:\▸\-
+set list listchars=tab:\▸\-
 " Tab文字を半角スペースにする
 "set expandtab
 
@@ -46,3 +49,4 @@ map <C-i> :GtagsCursor<CR>
 map <C-n> :cn<CR>
 map <C-p> :cp<CR>
 
+colorscheme molokai
