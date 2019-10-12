@@ -122,5 +122,8 @@ alias runsimulator='cd ~/robocup/for2050/src/pyfiles/;./runsimulator.sh'
 alias killrunsimulator='cd ~/robocup/for2050/src/pyfiles/; sh stop_run.sh'
 alias cbuild='rm -rf build/ && cmake -H. -Bbuild && cd build/'
 alias matlab='sh /usr/local/MATLAB/R2018b/bin/matlab'
-alias v-rep='cd ~/Downloads/tar.gz/open/V-REP_PRO_EDU_V3_1_2_64_Linux; ./vrep.sh'
+alias v-rep='cd ~/Downloads/tar.gz/open/V-REP_PRO_EDU_V3_6_0_Ubuntu16_04; ./vrep.sh'
+export QT_PLUGIN_PATH="$QT_ROOT/gcc_64/plugins"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$dirname

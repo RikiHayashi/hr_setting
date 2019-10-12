@@ -28,9 +28,9 @@ set cursorline
 nnoremap j gj
 nnoremap k gk
 " 不可視文字を可視化(タブが「▸-」と表示される)
-set list listchars=tab:\▸\-
+set list listchars=tab:▸-,trail:>
 " Tab文字を半角スペースにする
-"set expandtab
+set expandtab
 
 
 """"""""""""""""""""""""""""""
