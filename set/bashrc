@@ -128,3 +128,5 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$dirname
 export EIGEN3_INCLUDE_DIR="/usr/include/eigen3"
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+export EDITOR=/usr/bin/vim
